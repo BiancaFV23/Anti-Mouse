@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zapateros</title>
+
+    <style>
+body {
+  background-image: url('img/anticafe.png');
+  background-repeat: repeat;
+  background-size: 40% 40%;
+
+}
+</style>
+<style>
+      h1 {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:white ;
+        font-size: 35px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+      }
+      h2 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:black ;
+        font-size: 30px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+      }
+      table {
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 3px solid fae767;
+        padding: 100px 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        background-color:#D98648 ;
+      }
+      .acepta {
+        font-size: 20px;
+      }
+      .borra {
+        font-size: 20px;
+      }
+  
+    </style>
+  </head>
+  <body>
+    <a class="=inicio" href="index.html"><img align="left" src="img/inicio.png"></a>   
+    <h1>Bienvenido a Anti-Mouse</h1>
+    <h2>Tienda: 457 Galerias</h2>
+    <h2>Area: Ropa </h2>
+    <h2>ZAPATEROS </h2>
+    <br>
+    <form action="zapateros.php" name="" method="POST">
+      <table border="0" align="center">
+        <tr>
+            <td>
+              Zapatero 1:
+            </td>
+            <td>
+              <label for="zap1"></label>
+              <input type="text" name="zapatero1" id="zap1" required  />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Zapatero 2:
+            </td>
+            <td>
+              <label for="zap2"></label>
+              <input type="text" name="zapatero2" id="zap2" required  />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Zapatero 3:
+            </td>
+            <td>
+              <label for="zap3"></label>
+              <input type="text" name="zapatero3" id="zap3"  required />
+            </td>
+          </tr>
+          <tr>
+              <td>
+                Zapatero 4:
+              </td>
+              <td>
+                <label for="zap4"></label>
+                <input type="text" name="zapatero4" id="zap4" required  />
+              </td>
+            </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <td align="center">
+            <input
+              class="acepta"
+              type="submit"
+              name="enviar"
+              id="enviar"
+              value="Aceptar"
+            />
+          </td>
+          <td align="center">
+            <input 
+              class="borra" 
+              type="reset" 
+              name="borrar" 
+              id="borrar" 
+              value="Borrar" />
+          </tr>
+        </table>
+       
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
+   

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Paso elevado:wght@400; 500; 600; 700; 800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-image: url('img/antiamarillo.png');
+    background-repeat: repeat;
+    background-size: 20% 20%;
+}
+
+
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+    .menu .navbar ul li{
+        position:relative;
+        float: left;
+    }
+    .menu .navbar ul li a{
+        font-size: 18px;
+        padding: 20px;
+        color:black;
+        display: block;
+        font-weight: 600;
+    }
+
+
+    .menu .navbar ul li a:hover{
+        color:#2874A6 ;
+    }
+
+    #menu {
+        display: none;
+
+    }
+.menu-1{
+    width: 25px;
+}
+
+.menu-label {
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+.anti{
+    text-align: center;
+}
+.anti h1{
+    font-size: 100px;
+    line-height: 510px;
+    color:black;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-style: italic;
+    
+}
+.anti p {
+    font-size: 25px;
+    color:black;
+    padding: 0 250px;
+    margin-bottom: 25px;
+    font-style: italic; 
+}
+
+
+
+
+
+
+.mouse{
+    padding: 100px 0;
+    background-color:#2980B9 ;
+    position: relative;
+}
+.mouse-content{
+    text-align: left;
+
+}
+
+.mouse-content h2{
+    font-size: 50;
+    line-height: 70px;
+    color:white;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+}
+.txt-p {
+    font-size: 25px;
+    color: black ;
+    padding: 10 250px;
+    margin-bottom: 30px;
+    
+}
+.caba{
+    color:black;
+    font-size: 20px;
+}
+
+
+
+
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color:black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+p{
+    font-size: 16px;
+    color:black;
+    margin: 25px  45px ;
+   
+
+}
+
+
+
+
+
+
+
+
+
+.enlace{
+    padding: 100px 100px;
+    background-color:  black;
+}
+.enlace-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.enlace-3 h3{ 
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+.link a{
+    font-size: 16px;
+    color:#73C6B6;
+    display: block;
+    margin-bottom: 15px;
+    
+}
+
+
+
+
+
+
+
+
